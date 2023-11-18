@@ -1,0 +1,8 @@
+
+j
+java:S1104"OMake hex a static final constant or non-public and provide accessors if needed.(©ã®Èıÿÿÿÿ
+g
+java:S1104"QMake owner a static final constant or non-public and provide accessors if needed.(ÆÓµ
+0
+java:S1220""Move this file to a named package.
+l	java:S116"RRename this field "on_tile" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í…ÍÚşÿÿÿÿ

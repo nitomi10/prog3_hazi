@@ -1,0 +1,11 @@
+
+0
+java:S1220""Move this file to a named package.
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Υ°¨
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ζεκ
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(€Νωÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Υ°¨
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ζεκ
