@@ -1,9 +1,21 @@
+import java.util.ArrayList;
+
 public class Peasant extends Unit{
-    static public final int power = 1;
-    static public final int range = 5;
+    public static final int strength = 1;
+    public static final int salary = 2;
+    public static final int price = 10;
 
-    @Override
-    public void move() {
+    public static final String imgPath = "imgs\\Peasant.png";
+    public Peasant(Game game,Player owner, Tile tile) throws NotEnoughMoneyError {
+        super(game,owner, tile, salary, strength, price,imgPath);
+    }
 
+    public void upgrade(){
+        owner.balance+=20;
+        try {
+            new Spearman(game,owner,ItsTile);
+        } catch (NotEnoughMoneyError e) {
+            throw new RuntimeException(e);
+        }
     }
 }

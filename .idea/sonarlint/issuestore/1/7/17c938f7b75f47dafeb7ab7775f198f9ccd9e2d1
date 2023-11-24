@@ -1,3 +1,33 @@
 
-0
-java:S1220""Move this file to a named package.
+L
+java:S1066+"/Merge this if statement with the enclosing one.(¬Éò­8ƒ•îñ¿1
+Q
+java:S1066R"/Merge this if statement with the enclosing one.(ÖóÖÊÿÿÿÿÿ8„•îñ¿1
+R
+java:S1066„"/Merge this if statement with the enclosing one.(á‚†”øÿÿÿÿ8„•îñ¿1
+L
+java:S1066…"/Merge this if statement with the enclosing one.(ŞÓ½x8„•îñ¿1
+R
+java:S1066‡"/Merge this if statement with the enclosing one.(¥Œƒ‘ûÿÿÿÿ8„•îñ¿1
+R
+java:S1066Ä"/Merge this if statement with the enclosing one.(¤½áÜıÿÿÿÿ8„•îñ¿1
+M
+java:S1066Å"/Merge this if statement with the enclosing one.(œ¥¨ô8„•îñ¿1
+M
+java:S1066Í"/Merge this if statement with the enclosing one.(œ¥¨ô8„•îñ¿1
+“
+java:S1319¯"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ï¹Ê‘üÿÿÿÿ8„•îñ¿1
+7
+java:S1220""Move this file to a named package.8†•îñ¿1
+v	java:S115	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(óÆïˆ8±˜îñ¿1
+t
+java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 69 to the 15 allowed.(·Ø›şÿÿÿÿ8µ˜îñ¿1
+t
+java:S3776l"RRefactor this method to reduce its Cognitive Complexity from 71 to the 15 allowed.(è˜¸Ëüÿÿÿÿ8¸˜îñ¿1
+o
+java:S1871r"MThis branch's code block is the same as the block for the branch on line 112.(Ä‡¡Ëşÿÿÿÿ8º˜îñ¿1
+p	java:S100¯"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¹Ê‘üÿÿÿÿ8¼˜îñ¿1
+u
+java:S3776¯"RRefactor this method to reduce its Cognitive Complexity from 73 to the 15 allowed.(ï¹Ê‘üÿÿÿÿ8¼˜îñ¿1
+N
+java:S1128"1Remove this unused import 'java.util.Dictionary'.(¸Ûãó8À˜îñ¿1

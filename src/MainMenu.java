@@ -7,7 +7,9 @@ public class MainMenu extends JPanel {
     JButton newGameButton;
     JButton continueGameButton;
     JPanel parent;
-    public MainMenu(JPanel parent){
+    Game game;
+    public MainMenu(JPanel parent,Game game){
+        this.game = game;
         this.parent = parent;
         JPanel[][] panels = new JPanel[3][3];
         for (int i = 0; i<3;i++) {
@@ -36,13 +38,14 @@ public class MainMenu extends JPanel {
     private class ContinueGameListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-
+            MainFrame mf = new MainFrame(game);
+            mf.switchMenus(parent,"game panel");
         }
     }
     private class NewGameListener implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
-            MainFrame mf = new MainFrame();
+            MainFrame mf = new MainFrame(game);
             mf.switchMenus(parent,"new game");
         }
     }

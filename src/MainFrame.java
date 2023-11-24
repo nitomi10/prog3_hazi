@@ -8,18 +8,29 @@ public class MainFrame extends JFrame {
     JPanel menus;
     JPanel mainMenu;
     JPanel newGameMenu;
-    JPanel gamePanel;
+    JPanel endgamescreen;
+    HexGrid gamePanel;
+
+    GamePanel2 gamePanel2;
     Game game;
-    public MainFrame(){
+    public MainFrame(Game game){
+        if(game != null) {
+            this.game = game;
+        }
         menus  = new JPanel();
         menus.setLayout(cl);
-        mainMenu = new MainMenu(menus);
+        mainMenu = new MainMenu(menus,game);
         menus.add(mainMenu,"main menu");
         newGameMenu = new NewGameMenu(menus,game);
         menus.add(newGameMenu,"new game");
-        gamePanel = new GamePanel(game);
-        menus.add(gamePanel,"game panel");
-        this.setSize(new Dimension(600,400));
+        if (game != null) {
+            gamePanel2 = new GamePanel2(game,menus);
+            menus.add(gamePanel2.GamePanel2, "game panel");
+            endgamescreen = new GameWonScreen(game,menus);
+            menus.add(endgamescreen,"endgame");
+        }
+
+        this.setSize(new Dimension(800,800));
         this.add(menus);
     }
 
@@ -29,5 +40,6 @@ public class MainFrame extends JFrame {
     }
     public void addGame (Game game){
         this.game = game;
+
     }
 }

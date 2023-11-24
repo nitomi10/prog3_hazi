@@ -1,3 +1,14 @@
 
-0
-java:S1220""Move this file to a named package.
+Q
+java:S1066"/Merge this if statement with the enclosing one.(ÀĞ•ıÿÿÿÿ8Àåíß¿1
+Q
+java:S1066"/Merge this if statement with the enclosing one.(Ó«óùÿÿÿÿ8Àåíß¿1
+7
+java:S1220""Move this file to a named package.8Àåíß¿1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(§‹è©8Éåíß¿1
+V
+java:S5993"9Change the visibility of this constructor to "protected".(—„İĞ8Éåíß¿1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(§‹è©8Ëåíß¿1
+H
+java:S1481"+Remove this unused "nextTo" local variable.(®¸Á·8Íîß¿1

@@ -1,11 +1,18 @@
 
-0
-java:S1220""Move this file to a named package.
-o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Õ°¨
-o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ÿæåê
-œ
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œ€Íùÿÿÿÿ
-[
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Õ°¨
-[
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ÿæåê
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¾ğ±ë¿1
+7
+java:S1220""Move this file to a named package.8˜²èÜ¿1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ö§ë¹úÿÿÿÿ8š²èÜ¿1
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯º*8š²èÜ¿1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦Ä…¹8š²èÜ¿1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ãèØº8š²èÜ¿1
+N
+java:S2387","strength" is the name of a field in "Unit".(Ö§ë¹úÿÿÿÿ8š²èÜ¿1
+F
+java:S2387"*"salary" is the name of a field in "Unit".(¯º*8š²èÜ¿1
+F
+java:S2387")"price" is the name of a field in "Unit".(¦Ä…¹8š²èÜ¿1
+N
+java:S2387"1"imgPath" is the name of a field in "GameObject".(ãèØº8š²èÜ¿1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8²èÜ¿1

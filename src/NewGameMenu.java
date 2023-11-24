@@ -9,7 +9,7 @@ public class NewGameMenu extends JPanel
 {
     static int minPlayers = 2;
     static int maxPlayers = 4;
-    static int mapsize = 1;
+    static String mapsize;
     JSlider slider;
     JPanel parent;
     Game game;
@@ -33,11 +33,11 @@ public class NewGameMenu extends JPanel
         playerNum.add(slider);
         JPanel mapsize = new JPanel();
         mapsize.setLayout(new FlowLayout());
-        JButton SmallMapButton = new JButton("Small");
+        JToggleButton SmallMapButton = new JToggleButton("Small");
         SmallMapButton.addActionListener(new SmallMapButtonListener());
-        JButton MediumMapButton = new JButton("Medium");
+        JToggleButton MediumMapButton = new JToggleButton("Medium");
         MediumMapButton.addActionListener(new MediumMapButtonListener());
-        JButton LargeMapButton = new JButton("Large");
+        JToggleButton LargeMapButton = new JToggleButton("Large");
         LargeMapButton.addActionListener(new LargeMapButtonListener());
         mapsize.add(SmallMapButton);
         mapsize.add(MediumMapButton);
@@ -58,24 +58,24 @@ public class NewGameMenu extends JPanel
     }
 
     private class SmallMapButtonListener implements ActionListener{
-        int size = 10;
+        String size ="small";
         @Override
         public void actionPerformed(ActionEvent e) {
             mapsize = size;
         }
     }
     private class MediumMapButtonListener implements ActionListener{
-        int size = 20;
+        String size ="medium";
         @Override
         public void actionPerformed(ActionEvent e) {
-            mapsize = 2;
+            mapsize = size;
         }
     }
     private class LargeMapButtonListener implements ActionListener{
-        int size = 30;
+        String size ="large";
         @Override
         public void actionPerformed(ActionEvent e) {
-            mapsize = 3;
+            mapsize = size;
         }
     }
     private class StartGameListener implements ActionListener{
@@ -85,15 +85,15 @@ public class NewGameMenu extends JPanel
             for (int i = 0; i<slider.getValue();i++){
                 names.add(new String("Player "+(i+1)));
             }
-            game = new Game(mapsize*10,names);
-            MainFrame mf = new MainFrame();
+            game = new Game(mapsize,names);
+            MainFrame mf = new MainFrame(game);
             mf.switchMenus(parent,"game panel");
         }
     }
     private class BackListener implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
-            MainFrame mf = new MainFrame();
+            MainFrame mf = new MainFrame(null);
             mf.switchMenus(parent,"main menu");
         }
     }

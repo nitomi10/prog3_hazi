@@ -6,22 +6,52 @@ public class Game {
     public Tile[][] map ;
     public ArrayList<Player> players = new ArrayList<Player>();
     Player current_turn;
-
-    public Game(int tile_num, ArrayList<String> player_names){
-        gen_map(tile_num);
+    Player won;
+    public Game(String size, ArrayList<String> player_names){
+        gen_map(size);
         for(String name : player_names){
             players.add(new Player(name));
         }
         gen_starting_tiles();
         current_turn = players.get(0);
-
+        current_turn.startNewTurn();
+        won = null;
     }
-    private void gen_map(int tile_num){
+
+    public void nextPlayersTurn (){
+        players.remove(current_turn);
+        Player next = players.get(0);
+        current_turn.endTurn();
+        players.add(players.size()-1,current_turn);
+        current_turn = next;
+        current_turn.startNewTurn();
+    }
+
+    private void gen_map(String size){
         //temp solution
         map = new Tile[6][6];
-        for (int i = 0; i < 6 ; i++){
-            for (int j = 0; j < 6 ; j++){
-                map[i][j] = new Tile(new Hexagon(j,i));
+        for (int i = 0; i < map.length ; i++){
+            for (int j = 0; j < map[i].length; j++){
+                map[i][j] = new Tile(this, new Hexagon(i,j,true));
+            }
+        }
+    }
+
+    public void PlayerLost(Player player){
+        for (Tile t : player.owned_tiles){
+            t.on_tile = null;
+            t.owner = null;
+        }
+        players.remove(player);
+        if (players.size()<= 1){
+            won = players.get(0);
+        }
+    }
+
+    public void updateDefenses(){
+        for (int i = 0;i < map.length; i++){
+            for (int j= 0; j < map[i].length;j++){
+                map[i][j].updateDefensiveValue();
             }
         }
     }
@@ -31,10 +61,14 @@ public class Game {
         for (Player player: players) {
             boolean found = false;
             while (!found){
-                Tile target = map[rand.nextInt(map.length-1)][rand.nextInt(map[0].length-1)];
+                WeightedRandomList<Tile> weightedList = new WeightedRandomList<>();
+                initWeightedList(weightedList);
+                Tile target = weightedList.getRandom();
                 if (target.owner == null){
                     player.add_to_tiles(target);
-                    player.captial = target;
+                    player.capital = target;
+                    try{new Castle(this,player,player.capital);}
+                    catch (NotEnoughMoneyError e){}
                     found = true;
 
                     boolean gen_done = false;
@@ -45,7 +79,11 @@ public class Game {
                             int add_indx = rand.nextInt(neighbours.size()-1);
                             player.add_to_tiles(neighbours.get(add_indx));
                             neighbours.remove(add_indx);
-                            player.add_to_tiles(neighbours.get(rand.nextInt(neighbours.size()-1)));
+                            if (neighbours.size() > 1){
+                                player.add_to_tiles(neighbours.get(rand.nextInt(neighbours.size()-1)));
+                            }else{
+                                player.add_to_tiles(neighbours.get(0));
+                            }
                             gen_done = true;
                         }else if (neighbours.size() == 1){
                             Tile add_tile = neighbours.get(0);
@@ -61,15 +99,41 @@ public class Game {
         }
     }
 
+    public void initWeightedList(WeightedRandomList list){
+        for (int i = 0; i < map.length;i++){
+            for (int j=0;j<map[i].length;j++){
+                list.addEntry(map[i][j],calcWeight(map[i][j]));
+            }
+        }
+    }
+
+    public double calcWeight(Tile tile){
+        double weight = 1;
+        for (Player p : players){
+            if (p.capital != null){
+                weight+= 10*tile.hex.Hex_distance(tile.hex,p.capital.hex);
+            }
+        }
+       return weight;
+    }
+
     public ArrayList<Tile> find_neighbours_in_map(Tile starting_point){
         ArrayList<Tile> neighbours = new ArrayList<Tile>();
         for (int i= 0; i < 6 ; i++){
            Hexagon neighbour_hex = starting_point.hex.hex_neighbor(starting_point.hex,i);
-           if (0 <= neighbour_hex.q && neighbour_hex.q < map.length && 0<= neighbour_hex.r && neighbour_hex.r <= map[0].length ){
+           for (int r = 0; r < map.length; r++){
+               for (int q=0;q<map[0].length;q++){
+                   if (map[r][q].hex.r == neighbour_hex.r && map[r][q].hex.q== neighbour_hex.q && map[r][q].hex.s == neighbour_hex.s){
+                       neighbours.add(map[r][q]);
+                   }
+               }
+            }
+
+           /*if (0 <= neighbour_hex.q && neighbour_hex.q < map.length && 0<= neighbour_hex.r && neighbour_hex.r < map[0].length ){
                 if (map[neighbour_hex.r][neighbour_hex.q] != null){
                     neighbours.add(map[neighbour_hex.r][neighbour_hex.q]);
                 }
-           }
+           }*/
         }
         return neighbours;
     }
