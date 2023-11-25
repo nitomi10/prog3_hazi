@@ -1,0 +1,21 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°®½Åÿÿÿÿÿ8ı¡Œá¿1
+7
+java:S1220""Move this file to a named package.8ı¡Œá¿1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Îê©şÿÿÿÿ8ÿ¡Œá¿1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢÷µã8ÿ¡Œá¿1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(èöúÛ8ÿ¡Œá¿1
+X
+java:S2387"6"defensivePower" is the name of a field in "Building".(Îê©şÿÿÿÿ8ÿ¡Œá¿1
+J
+java:S2387"-"price" is the name of a field in "Building".(¢÷µã8ÿ¡Œá¿1
+N
+java:S2387"1"imgPath" is the name of a field in "GameObject".(èöúÛ8ÿ¡Œá¿1
+I
+java:S2055"'Add a no-arg constructor to "Building".(°®½Åÿÿÿÿÿ8Ïÿ¶À1
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Îê©şÿÿÿÿ8¢Œá¿1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¢÷µã8‚¢Œá¿1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(èöúÛ8‚¢Œá¿1

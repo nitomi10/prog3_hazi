@@ -1,0 +1,26 @@
+
+Q
+java:S3740""/Provide the parametrized type for this generic.(ï¼†¥ùÿÿÿÿ8â˜÷‡À1
+7
+java:S1220""Move this file to a named package.8ã˜÷‡À1
+u	java:S116"YRename this field "SmallMapButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íªß”8ğ˜÷‡À1
+v	java:S116"ZRename this field "MediumMapButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö˜›Ì8ğ˜÷‡À1
+u	java:S116"YRename this field "LargeMapButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¯†Ø8ğ˜÷‡À1
+Q
+java:S2387"/"parent" is the name of a field in "Component".(²©ê…şÿÿÿÿ8ò˜÷‡À1
+x
+java:S1149""VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ï¼†¥ùÿÿÿÿ8ô˜÷‡À1
+]
+java:S1117+";Rename "mapsize" which hides the field declared at line 15.(‰¶ÆÕüÿÿÿÿ8ø˜÷‡À1
+X
+java:S2696U"6Make the enclosing method "static" or remove this set.(–Æ†ùÿÿÿÿ8ü˜÷‡À1
+X
+java:S2696^"6Make the enclosing method "static" or remove this set.(–Æ†ùÿÿÿÿ8ı˜÷‡À1
+X
+java:S2696i"6Make the enclosing method "static" or remove this set.(–Æ†ùÿÿÿÿ8ş˜÷‡À1
+X
+java:S1854t"6Remove this useless assignment to local variable "mf".(õúó–ıÿÿÿÿ8£½†ˆÀ1
+B
+java:S2129q" Remove this "String" constructor(®ûÎ½ûÿÿÿÿ8™÷‡À1
+I
+java:S1481t"'Remove this unused "mf" local variable.(õúó–ıÿÿÿÿ8¦½†ˆÀ1

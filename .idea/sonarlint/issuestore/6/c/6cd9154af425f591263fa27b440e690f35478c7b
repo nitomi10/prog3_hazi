@@ -1,0 +1,89 @@
+
+g
+java:S1192¿"IDefine a constant instead of duplicating this literal "Spearman" 4 times.(’öìí8ˆœë¿1
+e
+java:S1192Î"GDefine a constant instead of duplicating this literal "Label" 10 times.(¶¦›Á8ˆœë¿1
+j
+java:S1192Í"GDefine a constant instead of duplicating this literal "Knight" 4 times.(ˆ‚Âçıÿÿÿÿ8ˆœë¿1
+e
+java:S1192¸"HDefine a constant instead of duplicating this literal "Peasant" 4 times.(Îşr8ˆœë¿1
+d
+java:S1192Æ"FDefine a constant instead of duplicating this literal "Baron" 4 times.(¤¢›ö8ˆœë¿1
+M
+java:S1066‰"/Merge this if statement with the enclosing one.(Ô’å¾8ˆœë¿1
+R
+java:S1066"/Merge this if statement with the enclosing one.(î“Šşûÿÿÿÿ8ˆœë¿1
+M
+java:S1066ã"/Merge this if statement with the enclosing one.(ä‘¿”8‰œë¿1
+M
+java:S1066ä"/Merge this if statement with the enclosing one.(ñŞÓÚ8‰œë¿1
+x
+java:S1104"VMake GamePanel2 a static final constant or non-public and provide accessors if needed.(ÏšÒøøÿÿÿÿ8‰œë¿1
+j	java:S101å"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ñÃÚš8‰œë¿1
+;
+java:S1700"Rename field "GamePanel2"(ÏšÒøøÿÿÿÿ8‹œë¿1
+7
+java:S1220""Move this file to a named package.8‹œë¿1
+o	java:S116"SRename this field "PeasantB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥è«ä8£œë¿1
+u	java:S116	"TRename this field "SpearmanB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ®¢äûÿÿÿÿ8£œë¿1
+r	java:S116
+"QRename this field "BaronB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿©Ø‚ÿÿÿÿÿ8£œë¿1
+s	java:S116"RRename this field "KnightB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İë©¾ùÿÿÿÿ8£œë¿1
+q	java:S116"PRename this field "FarmB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¢æıÿÿÿÿ8£œë¿1
+m	java:S116"QRename this field "TowerB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„’–8£œë¿1
+t	java:S116"XRename this field "Strong_towerB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûæ¾¤8£œë¿1
+v	java:S116"URename this field "GamePanel2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏšÒøøÿÿÿÿ8£œë¿1
+o	java:S116"TRename this field "GameField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘àöA8£œë¿1
+t	java:S116"SRename this field "PeasantL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­²¡«ûÿÿÿÿ8£œë¿1
+u	java:S116"TRename this field "SpearmanL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š©Áìúÿÿÿÿ8£œë¿1
+m	java:S116"QRename this field "BaronL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿã—8£œë¿1
+s	java:S116"RRename this field "KnightL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò–ÅÂúÿÿÿÿ8£œë¿1
+q	java:S116"PRename this field "FarmL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¥ÿÂÿÿÿÿÿ8£œë¿1
+l	java:S116"QRename this field "TowerL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ÆÖ\8£œë¿1
+t	java:S116"XRename this field "Strong_towerL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è’Ü8£œë¿1
+s	java:S116"RRename this field "IncomeL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÅîüÿÿÿÿ8£œë¿1
+o	java:S116"SRename this field "BalanceL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…Ù¯¸8£œë¿1
+r	java:S116"VRename this field "PlayerNameL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¥õ™8£œë¿1
+Q
+java:S2387"/"parent" is the name of a field in "Component".(²©ê…şÿÿÿÿ8¦œë¿1
+H
+java:S1948"&Make "game" transient or serializable.(Ä¿–øÿÿÿÿ8©œë¿1
+t
+java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ğÓÁüÿÿÿÿ8£’œë¿1
+|
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ª’œë¿1
+p	java:S100«"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–­Œßúÿÿÿÿ8«’œë¿1
+p	java:S100±"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ ¨úúÿÿÿÿ8·’œë¿1
+v
+java:S3776ì"SRefactor this method to reduce its Cognitive Complexity from 120 to the 15 allowed.(š–•Êûÿÿÿÿ8Â’œë¿1
+?	java:S131ò""Add a default case to this switch.(Å¥‹ç8Ä’œë¿1
+F	java:S108÷")Either remove or fill this block of code.(—‚íÒ8Ä’œë¿1
+f
+java:S6201ù"HReplace this instanceof check and cast with 'instanceof Peasant peasant'(¾Òñ¹8Ä’œë¿1
+F	java:S108")Either remove or fill this block of code.(—‚íÒ8Å’œë¿1
+m
+java:S6201ƒ"JReplace this instanceof check and cast with 'instanceof Spearman spearman'(î´´áıÿÿÿÿ8Ÿğäë¿1
+F	java:S108‹")Either remove or fill this block of code.(—‚íÒ8É’œë¿1
+g
+java:S6201"DReplace this instanceof check and cast with 'instanceof Baron baron'(Û‚—Œüÿÿÿÿ8 ğäë¿1
+F	java:S108”")Either remove or fill this block of code.(—‚íÒ8É’œë¿1
+k
+java:S1871¾"MThis branch's code block is the same as the block for the branch on line 419.(üÂÂ¨8È’œë¿1
+?	java:S131¤""Add a default case to this switch.(Å¥‹ç8É’œë¿1
+F	java:S108¨")Either remove or fill this block of code.(—‚íÒ8É’œë¿1
+F	java:S108®")Either remove or fill this block of code.(—‚íÒ8É’œë¿1
+F	java:S108´")Either remove or fill this block of code.(—‚íÒ8Ë’œë¿1
+F	java:S108º")Either remove or fill this block of code.(—‚íÒ8Ë’œë¿1
+?	java:S131¿""Add a default case to this switch.(Å¥‹ç8Ë’œë¿1
+F	java:S108Ã")Either remove or fill this block of code.(—‚íÒ8Ë’œë¿1
+F	java:S108É")Either remove or fill this block of code.(—‚íÒ8Ë’œë¿1
+F	java:S108Ï")Either remove or fill this block of code.(—‚íÒ8Ì’œë¿1
+F	java:S108Õ")Either remove or fill this block of code.(—‚íÒ8Ì’œë¿1
+p
+java:S3776à"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(£«Å8Ë’œë¿1
+D	java:S131å""Add a default case to this switch.(’êûöøÿÿÿÿ8Ì’œë¿1
+F	java:S108é")Either remove or fill this block of code.(—‚íÒ8Ì’œë¿1
+F	java:S108ï")Either remove or fill this block of code.(—‚íÒ8§Â¸ë¿1
+F	java:S108õ")Either remove or fill this block of code.(—‚íÒ8¤ğäë¿1
+ê
+java:S6541ì"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 113 to 64, Complexity from 28 to 14, Nesting Level from 6 to 2, Number of Variables from 19 to 6.(š–•Êûÿÿÿÿ8Ï’œë¿1

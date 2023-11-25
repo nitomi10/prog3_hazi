@@ -1,0 +1,21 @@
+
+m
+java:S1192"KDefine a constant instead of duplicating this literal "game panel" 3 times.(¯ø­¶ÿÿÿÿÿ8ÿ¤“¶À1
+j
+java:S1192"HDefine a constant instead of duplicating this literal "endgame" 3 times.(øÆë”ùÿÿÿÿ8€¥“¶À1
+7
+java:S1220""Move this file to a named package.8ÿÃìµÀ1
+j
+java:S20954"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Íºq8‡ÄìµÀ1
+r
+java:S20955"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ĞÆÈ¦şÿÿÿÿ8‡ÄìµÀ1
+o
+java:S2095?"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÖĞœ·ıÿÿÿÿ8‡ÄìµÀ1
+q
+java:S2095@"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(¼…‡úşÿÿÿÿ8‡ÄìµÀ1
+W
+java:S1117&"5Rename "cl" which hides the field declared at line 8.(³€¶ƒøÿÿÿÿ8ÄìµÀ1
+T
+java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8†¨’¶À1
+W
+java:S1128":Remove this unused import 'java.awt.event.ActionListener'.(Ìä¹8†¨’¶À1

@@ -3,12 +3,12 @@ v
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¼ìºÿ8»ùß³¿1
 m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ìºÿ8¼ùß³¿1
 m	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÊØà8¼ùß³¿1
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÞ¼‘8¼ùß³¿1
 7
 java:S1220""Move this file to a named package.8¼ùß³¿1
 E	java:S108")Either remove or fill this block of code.(Šù¡¤8Üùß³¿1
 ]	java:S125"<This block of commented-out lines of code should be removed.(“Ÿòýÿÿÿÿ8Üùß³¿1
 e
-java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(íŸ8êùß³¿1
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(íŸ8êùß³¿1
 B
-java:S1128"%Remove this unused import 'java.awt'.(ï´µ©8ìùß³¿1
+java:S1128"%Remove this unused import 'java.awt'.(ï´µ©8·þ”‡À1

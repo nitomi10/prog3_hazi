@@ -1,0 +1,49 @@
+
+L
+java:S3740m"/Provide the parametrized type for this generic.(¿ßı­8ºıµÀ1
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(µ°Ê ûÿÿÿÿ8ºıµÀ1
+w
+java:S2293€"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ï‘²8ºıµÀ1
+‰
+java:S1319"gThe type of "players" should be an interface such as "List" rather than the implementation "ArrayList".(µ°Ê ûÿÿÿÿ8ºıµÀ1
+‰
+java:S1319"lThe type of "player_names" should be an interface such as "List" rather than the implementation "ArrayList".(¹Ã†Ä8ºıµÀ1
+’
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ÿ“¥Íúÿÿÿÿ8ºıµÀ1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ã†Ä8ºıµÀ1
+r	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä™†¦ÿÿÿÿÿ8ºıµÀ1
+m	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•â¡ÿ8»ıµÀ1
+r	java:S117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëùŠÚıÿÿÿÿ8»ıµÀ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ“¥Íúÿÿÿÿ8»ıµÀ1
+n	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äô¿Í8»ıµÀ1
+l
+java:S1104"OMake map a static final constant or non-public and provide accessors if needed.(´ã™İ8»ıµÀ1
+u
+java:S1104"SMake players a static final constant or non-public and provide accessors if needed.(µ°Ê ûÿÿÿÿ8»ıµÀ1
+7
+java:S1220""Move this file to a named package.8¼ıµÀ1
+s
+java:S2095‘"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ĞÆÈ¦şÿÿÿÿ8ßÙıµÀ1
+k
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Íºq8ßÙıµÀ1
+s	java:S116	"WRename this field "current_turn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯øì8—ıµÀ1
+B
+java:S1948"%Make "map" transient or serializable.(´ã™İ8™ıµÀ1
+K
+java:S1948")Make "players" transient or serializable.(µ°Ê ûÿÿÿÿ8™ıµÀ1
+K
+java:S1948	".Make "current_turn" transient or serializable.(¯øì8™ıµÀ1
+G
+java:S1948
+"%Make "won" transient or serializable.(­ÂË´üÿÿÿÿ8™ıµÀ1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ë³8¢ıµÀ1
+j	java:S100/"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š…Œ¨8¥ıµÀ1
+o	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºüÏ¾üÿÿÿÿ8¨ıµÀ1
+t
+java:S3776B"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ºüÏ¾üÿÿÿÿ8¨ıµÀ1
+E	java:S108N")Either remove or fill this block of code.(èßûï8«ıµÀ1
+Q
+java:S1611T"/Remove the parentheses around the "x" parameter(© ¥Õùÿÿÿÿ8¬ıµÀ1
+L	java:S106d"+Replace this use of System.out by a logger.(õÚ›˜ùÿÿÿÿ8¯ıµÀ1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ“¥Íúÿÿÿÿ8²ıµÀ1

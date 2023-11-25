@@ -1,6 +1,6 @@
 
 7
 java:S1220""Move this file to a named package.8ÈûôÈ¾1
-s	java:S116"RRename this field "ItsTile" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Íºşÿÿÿÿ8¡ú£í¾1
+s	java:S116"RRename this field "ItsTile" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Íºşÿÿÿÿ8¡ú£í¾1
 [
-java:S5993"9Change the visibility of this constructor to "protected".(îë£–üÿÿÿÿ8ËûôÈ¾1
+java:S5993"9Change the visibility of this constructor to "protected".(îë£–üÿÿÿÿ8ËûôÈ¾1

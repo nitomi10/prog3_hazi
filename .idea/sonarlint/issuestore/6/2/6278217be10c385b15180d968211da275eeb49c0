@@ -1,0 +1,14 @@
+
+7
+java:S1220""Move this file to a named package.8«´Ë…À1
+_
+java:S21841"BCast one of the operands of this division operation to a "double".(ÁÄÎ8§à¨†À1
+J
+java:S1172"-Remove this unused method parameter "offset".(óÃä©8¹´Ë…À1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š÷¾ƒúÿÿÿÿ8¹´Ë…À1
+o	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÏÉ·ÿÿÿÿÿ8º´Ë…À1
+l
+java:S1764 "JCorrect one of the identical sub-expressions on both sides of operator "-"(ƒÏÉ·ÿÿÿÿÿ8»´Ë…À1
+o	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ñëÔùÿÿÿÿ8½´Ë…À1
+j	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ¢¢¶8½´Ë…À1
+o	java:S100/"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íë†­ıÿÿÿÿ8¾´Ë…À1
